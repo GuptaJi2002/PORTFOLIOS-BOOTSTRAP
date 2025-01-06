@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylee.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container fs-50">
+            <a class="navbar-brand fs-1" href="#">Abhishek Gupta </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto style=color: #fff">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 text-danger " href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 text-danger" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 text-danger" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4 text-danger" href="#skills">Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="hero bg-dark">
+        <div class="container text-white fs-4">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Your one-stop destination to explore my work, skills, and achievements.</p>
+        </div>
+    </section>
+    <section id="about" class="container py-5 ">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p>Hello, I'm Abhishek Gupta a computer science student with a strong interest in Web Development, AI And ML . I love learning about AI technologies and applying them to solve real-world trouble. I'm eager to work with organizations that encourage innovation and teamwork.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container py-4 bg-light">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Gemini 2.0 Clone User Interface <br>React Js Gemini API </h5>
+                        <p class="card-text">This project is a replica of the Gemini 2.0 website  platform. It showcases a modern and responsive user interface designed to mimic the original platform's functionality and aesthetic..</p>
+                        <a href="https://github.com/GuptaJi2002" class="btn btn-success" target="_blank">git
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Business Application Website UI<br>
+                        HTML CSS JavaScript</h5>
+                        <p class="card-text">The website delivers a user-friendly experience with a captivating homepage, seamless navigation, dynamic dashboards, engaging service pages, and a comprehensive contact section.
+                        </p>
+                        <a href="https://github.com/GuptaJi2002" class="btn btn-success" target="_blank">git
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Smart Attendance System Using Face Recognition</h5>
+                        <p class="card-text"> S.A.S using facial recognition leverage technology to automate the process of marking attendance in various settings, such as schools, universities and events. </p>
+                        <a href="https://github.com/GuptaJi2002" class="btn btn-success" target="_blank">git
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills bg-dark ">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">SKILLS</h2>
+            <ul class="list-group list-group-flush text-danger">
+                <li class="list-group-item">HTML, CSS, JavaScript</li>
+                <li class="list-group-item">Bootstrap, Tailwind CSS</li>
+                <li class="list-group-item">React.js, Node Js</li>
+                <li class="list-group-item">SQL FIGMA CANVA</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact-us" class="py-5 bg-info">
+        <div class="container">
+          <h2 class="text-center mb-4">Contact Us</h2>
+          <p class="text-center mb-5">We would love to hear from you! Please fill out the form below, and we will get in touch.</p>
+          
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="Mobile" class="form-label">Mobile No</label>
+                    <input type="Mobile" class="form-control" id="Mobile" placeholder="Enter your No">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="Address" class="form-label">Address</label>
+                    <input type="Address" class="form-control" id="Address" placeholder="Enter your Address ">
+                  </div>
+                
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Write your message here"></textarea>
+                </div>
+                
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>      
+      <footer class="text-center py-4 bg-light text-danger">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <div>
+          <a href="https://www.linkedin.com/in/abhiii-gupta/" class="text-dark  me-3" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/GuptaJi2002" class="bg-light text-danger me-3" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
